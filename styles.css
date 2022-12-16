@@ -1,0 +1,151 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 150%;
+    line-height: 2;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted ;
+    border-color: grey;
+    border-width: 5px ;
+    height: 0px;
+    width: 5%;
+}
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+.head{
+    font-weight: normal;
+}
+h3{
+    color:#66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+.top-box{
+    background-color: #E4F9F5;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-top: 100px;
+
+    
+}
+.eng{
+    text-decoration: underline solid;
+    display: inline-block;
+    /*visibility: hidden;*/
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto; /* to center our divs in the screen*/
+    text-align: left;
+    line-height: 2;
+    font-size: medium;
+}
+.middle-container{
+
+}
+.bottom-container{
+
+}
+.bottom-cloud{
+    position: absolute;
+}
+.top-cloud{
+    position: relative;
+    left: 250px;
+}
+.life{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.code{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.profile{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    /*clear: left; to not have anything in the left*/
+}
+.contact-me{
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #11999E;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin:30px;
+    border-radius: 13px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+
+}
+.btn:hover{
+    background-color:#E4F9F5;
+    color: #11999E;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    margin: 0;
+    height: 150px;
+    position: relative;
+    padding-top: 20px;
+}
+.footer-link{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: medium;
+
+}
+a:hover{
+    color: #EAF6F6;
+    font-weight: 800;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: x-small;
+    position: absolute;
+    bottom:   10px ;
+    right: 45%;
+
+}
+
+/*
+.skilla{
+    clear: left;
+}
+.skillb{
+    clear: right;
+}*/
+
+/******************CSS POSITIONING**********************/
+/*  we can use <span> or display:inline/block/inline-block*/
+
+
+
